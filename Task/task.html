@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .body{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .main{
+        margin: 5px  5px;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        height: 730px;
+        width: 1300px;
+        background-color: black;
+        border: 5px dashed rgb(246, 42, 42);
+    }
+    .header{
+        color: blue;
+        height: 150px;
+        width: 1270px;
+        background-color:aqua;
+        border: 5px dashed  rgb(246, 42, 42);
+        margin: 6px 10px;
+    }
+    .table{
+        margin: 11px 10px; 
+    }
+    .side-panel{
+        color:rgb(40, 78, 3);
+       height: 400px;
+       width: 200px;
+        background-color: rgb(0, 255, 34);
+        border: 5px dashed  rgb(246, 42, 42);
+        
+    }
+    .content{
+        color: purple;
+        height: 180px;
+        width: 1070px; 
+        background-color: rgb(193, 129, 184);
+        border: 5px dashed  rgb(246, 42, 42);
+    }
+    .footer{
+        color:black ;
+        height: 100px;
+        width: 1270px;
+        background-color:rgb(246, 255, 0);
+        border: 5px dashed  rgb(246, 42, 42);
+        margin: 5px auto;
+    }
+</style>
+<body>
+    <div class="main" >
+     <div class="header">
+        HEADER
+     </div>
+     <div class="table">
+        <table border="1"  >
+            <tr>
+                <td class="side-panel" rowspan="4" >SIDE-PANEL</td>
+                <td class="content" rowspan="2" >CONTENT</td>
+                <!-- <td class="content"> hello</td> -->
+            </tr>
+            <tr>
+                <!-- <td class="content">hrllo</td> -->
+            </tr>
+            <tr>
+                <td class="content" rowspan="2" >CONTENT</td>
+                <!-- <td class="content" >hello</td> -->
+            </tr>
+            <tr>
+                <!-- <td class="content" >hello</td> -->
+            </tr>
+        </table>    
+     </div>
+     <div class="footer" >
+        FOOTER
+     </div>
+    </div>
+    
+</body>
+</html>
