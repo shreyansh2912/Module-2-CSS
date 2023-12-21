@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo element selector</title>
+
+    <!-- internal css starts here -->
+    <style>
+        h2::after{
+            content: "heading 2 content after here";
+        }
+        h2::before{
+            content: "heading 2 content before here";
+        }
+        p::first-letter{
+            font-size: 20px;
+          }
+          p::first-line{
+            background-color: orange;
+          }
+    </style>
+    <!-- internal css ends here -->
+</head>
+<body>
+    <h2>Heading 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda natus animi repellat. Accusamus, nulla ea eius necessitatibus aspernatur minus obcaecati accusantium cum, animi perferendis itaque labore deleniti sunt placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad tempora eveniet corrupti placeat laboriosam doloribus aliquam? Non nemo aliquid, eos numquam, qui, facilis eius laborum porro esse quis sed!</p>
+</body>
+</html>

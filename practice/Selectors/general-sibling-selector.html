@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General sibling selector</title>
+    <!-- internal css start here -->
+    <style>
+        
+        .parent{
+            border: 1px solid black;
+        }
+        .children{
+            background-color: rgb(29, 65, 18);
+            border: 1px solid black;
+        }
+        .parent~p{
+            background-color: blue;
+            color: yellow;
+        }
+        .children~p{
+            background-color: rgb(255, 140, 0);
+            color: rgb(67, 67, 63);
+        }
+
+        
+
+    </style>
+    <!-- internal css ends here -->
+</head>
+<body>
+
+    
+        <h1>heading 1 </h1>
+        <div class="parent">
+
+            <h2>heading 1 </h2>  <!--child-->
+            <p>paragraph tag</p> <!--child-->
+            
+            <div class="children">
+                <p>paragraph tag</p> <!-- grand child-->
+                <p>paragraph tag</p> <!--grand child-->
+                <p>paragraph tag</p> <!--grand child-->
+            </div>
+ 
+            <p>paragraph tag</p> <!--child-->
+            <p>paragraph tag</p> <!--child-->
+            <p>paragraph tag</p> <!--child-->
+        </div>
+
+        <!-- it selects all the tags beneath the given style tag name -->
+
+
+</body>
+</html>
