@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List in CSS</title>
+</head>
+<body>
+    <table border="1" >
+        <tr>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </tr>
+    </table>
+    </body>
+</html>
+<style>
+
+    ul{
+        /* border: 1 solid black; */
+        list-style: upper-alpha;
+        list-style-position: inside;
+        color: crimson;
+        font-size: 40px;
+        margin: 0 auto;
+    }
+    ul:hover{
+        
+        list-style:armenian;
+        margin: 0 auto;
+        color: rgb(234, 255, 0);
+        font-size: 40px;
+        transition-delay: 0.7s;
+        transition-duration: 0.7s;
+    }
+</style>
