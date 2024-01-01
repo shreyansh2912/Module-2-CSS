@@ -1,295 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
+  </head>
+  <style>
     @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
-    *{
-        font-size: 14px;
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        font-family:Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+    * {
+      font-size: 14px;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI,
+        Roboto, Helvetica, Arial, sans-serif;
+    }
+    .navbar {
+      margin-top: -22px;
+      justify-content: center;
+      box-shadow: 0 2px 50px -6px rgba(206, 206, 206, 0.8);
+      height: 80px;
+      width: 100%;
+      position: fixed;
+      margin-top: -30px;
+      background-color: rgb(255, 255, 255);
+    }
+    img {
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-right: -7px;
+      height: 36px;
+    }
+    div {
+      margin-top: 25px;
+    }
+    .nav {
+      color: rgb(2, 2, 53);
+      font-weight: bolder;
+      font-size: medium;
+      font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI,
+        Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+    }
+    .Serch-bar {
+      border: none;
+      margin-top: -4px;
+      background-color: rgb(222, 223, 223);
+      height: 30px;
+      width: 300px;
+    }
 
+    .icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* margin-top: 1px; */
+      margin-left: -30px;
+      margin-right: 20px;
     }
-    .navbar{
-        margin-top: -22px; 
-        justify-content: center;
-        box-shadow: 0 2px 50px -6px rgba(206, 206, 206, 0.8);
-        height: 80px;
-        width: 100%;  
-        position:fixed;  
-        margin-top: -30px;
-        background-color:rgb(255,255,255);
+    .icon > label {
+      font-size: 11px;
+      color: black;
     }
-    img{
-        margin-top: 20px;
-        margin-left: 40px;
-        margin-right: -7px;
-        height: 36px;
+    .search {
+      background-color: rgb(237, 237, 237);
     }
-    div{
-        margin-top: 25px;
+    .studio {
+      margin-top: 18px;
     }
-     .nav{
-            color: rgb(2, 2, 53);
-            font-weight: bolder;
-            font-size: medium;
-            font-family:Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
-             display: flex;
-             justify-content:space-between;
-             margin-top: 5px;
-     }
-     .Serch-bar{
-        border: none;
-        margin-top: -4px;
-        background-color: rgb(222, 223, 223);
-        height: 30px;
-        width: 300px;
-     }
-     
-     .icon{
-               display: flex;
-                flex-direction: column;   
-                align-items: center;
-                /* margin-top: 1px; */
-                margin-left: -30px;
-                margin-right: 20px;
-          }
-    .icon>label{
-        font-size: 11px;
-        color: black;
-    }      
-     .search{
-        background-color: rgb(237, 237, 237);
-     }
-     .studio{
-        margin-top: 18px;
-     }
-     sup{
-        margin-top: 100px;
-        color: red;
-     }
-     h2{
-        font-family:Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
-        color: rgb(47, 50, 104);
-         font-size: 30px;
-         margin-left: 10px;
-     }
-     .box{
-        margin: 0px 10px;
-            display: flex ;
-            justify-content: space-between;
-        }
-        .box-contain{
-            /* flex-direction: column; */
-            height: 300px;
-            width: 200px; 
-            background-color: blue;
-        }
-    .container{
-           padding-top: 60px;
-        }
-    .contain{
-        margin-top: 200px;
-        text-align: center;
-        color: rgb(255, 255, 255) ;
-        background-color: orangered;
-        height: 70px;
-        margin-left: 25px;
-        width: 150px;
+    sup {
+      margin-top: 100px;
+      color: red;
     }
-    .footer-main{
-        /* color: rgb(58, 57, 57); */
-        color: rgb(122, 124, 126);
-        box-shadow: 0 2px 15px -6px rgba(107, 107, 107, 0.8);
-        background-color: rgba(255, 255, 255, 0.918);
-        height: 600px;
-        /* display: flex; */
+    h2 {
+      font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI,
+        Roboto, Helvetica, Arial, sans-serif;
+      color: rgb(47, 50, 104);
+      font-size: 30px;
+      margin-left: 10px;
     }
-    .footer{
-        display: flex;
-        padding: 20px 120px ;
-        width: 100%;
-        height: 300px;
-        color: rgb(86, 110, 129);
+    .box {
+      margin: 0px 10px;
+      display: flex;
+      justify-content: space-between;
     }
-    .h4{
-        color: rgb(58, 57, 57);
-        margin-right: 35px;
-        flex-direction:row;
-        height: 10px;
+    .box-contain {
+      /* flex-direction: column; */
+      height: 300px;
+      width: 200px;
+      background-color: blue;
     }
-    .footer-container{
-        font-weight: normal;
-        color: rgb(122, 124, 126);
+    .container {
+      padding-top: 60px;
     }
-    .sub-footer{
-        margin-top: 100px;
-        width: 1050px;
-        margin-left: 120px;
+    .contain {
+      margin-top: 200px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background-color: orangered;
+      height: 70px;
+      margin-left: 25px;
+      width: 150px;
     }
-    .sub-sub-footer{
-        margin-left: 140px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        width: 1020px;
-        height: 50px;
-        margin-top: 0px;
+    .footer-main {
+      /* color: rgb(58, 57, 57); */
+      color: rgb(122, 124, 126);
+      box-shadow: 0 2px 15px -6px rgba(107, 107, 107, 0.8);
+      background-color: rgba(255, 255, 255, 0.918);
+      height: 600px;
+      /* display: flex; */
     }
-    a{
-        font-weight: bolder;
-        text-decoration: none;
-        color: blue;
+    .footer {
+      display: flex;
+      padding: 20px 120px;
+      width: 100%;
+      height: 300px;
+      color: rgb(86, 110, 129);
     }
-    .play_store{
-        height: 40px;
+    .h4 {
+      color: rgb(58, 57, 57);
+      margin-right: 35px;
+      flex-direction: row;
+      height: 10px;
     }
-    .app_store{
-        height: 40px;
-        width: 130px;
+    .footer-container {
+      font-weight: normal;
+      color: rgb(122, 124, 126);
     }
-    .social-media-icon>img{
-        margin: 0px;
-       color: rgb(105,110,121);
-       margin-top: -10px;
-       height: 30px;
-       padding: 2px 5px ;
+    .sub-footer {
+      margin-top: 100px;
+      width: 1050px;
+      margin-left: 120px;
     }
-    .footer-third-container{
-        /* display: flex; */
-        margin-left: 20px;
-        margin-top: -10px;
+    .sub-sub-footer {
+      margin-left: 140px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 1020px;
+      height: 50px;
+      margin-top: 0px;
     }
-    .original>img{
+    a {
+      font-weight: bolder;
+      text-decoration: none;
+      color: blue;
+    }
+    .play_store {
       height: 40px;
     }
-    .days>img{
-        height: 40px;
+    .app_store {
+      height: 40px;
+      width: 130px;
     }
-    .days{
-        margin-top: 5px;
+    .social-media-icon > img {
+      margin: 0px;
+      color: rgb(105, 110, 121);
+      margin-top: -10px;
+      height: 30px;
+      padding: 2px 5px;
+    }
+    .footer-third-container {
+      /* display: flex; */
+      margin-left: 20px;
+      margin-top: -10px;
+    }
+    .original > img {
+      height: 40px;
+    }
+    .days > img {
+      height: 40px;
+    }
+    .days {
+      margin-top: 5px;
       display: flex;
       width: 250px;
       justify-content: space-between;
     }
-    .original{
-        display: flex;
-        justify-content: space-between;
-        width: 300px;
+    .original {
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
     }
-    .font{
-        margin-top: 17px;
+    .font {
+      margin-top: 17px;
     }
-    b{
-
-        color: black;
+    b {
+      color: black;
     }
-    .footer-third-container>img{
-        flex-direction: row;
-        margin-right: 5px;
-          height: 40px;
+    .footer-third-container > img {
+      flex-direction: row;
+      margin-right: 5px;
+      height: 40px;
     }
-    #img{
-        margin-top: 9px;
-        margin-left: -40px;
+    #img {
+      margin-top: 9px;
+      margin-left: -40px;
     }
-</style>
-<body>
+  </style>
+  <body>
     <!-- header start -->
     <div class="navbar">
-        <div class="nav">
-                <img src="../myntra-navbar/myntra(logo).jpg" alt="">
-                <div>MEN</div>
-                <div>WOMEN</div>
-                <div>KIDS</div>
-                <div>HOME & LIVING</div>
-                <div>BEAUTY</div>
-                <div class="studio" >STUDIO <sup>New</sup> </div>
-                <div class="serch" >
-                    <i class="bi bi-search"></i>
-                <input class="Serch-bar" placeholder="Search for products,brands and more" type="search">
-            </div>
-            <div class="icon" ><i class="bi bi-person"></i>
-            <label for="">Profile</label></div>
-            <div class="icon" ><i class="bi bi-heart"></i>
-                <label for="">Whishlist</label></div>
-            <div class="icon" >
-                <i class="bi bi-bag"></i>
-            <label for="">Bag</label>
-            </div>
+      <div class="nav">
+        <img src="../myntra-navbar/myntra(logo).jpg" alt="" />
+        <div>MEN</div>
+        <div>WOMEN</div>
+        <div>KIDS</div>
+        <div>HOME & LIVING</div>
+        <div>BEAUTY</div>
+        <div class="studio">STUDIO <sup>New</sup></div>
+        <div class="serch">
+          <i class="bi bi-search"></i>
+          <input
+            class="Serch-bar"
+            placeholder="Search for products,brands and more"
+            type="search"
+          />
         </div>
+        <div class="icon">
+          <i class="bi bi-person"></i> <label for="">Profile</label>
+        </div>
+        <div class="icon">
+          <i class="bi bi-heart"></i> <label for="">Whishlist</label>
+        </div>
+        <div class="icon">
+          <i class="bi bi-bag"></i>
+          <label for="">Bag</label>
+        </div>
+      </div>
     </div>
     <!-- header end -->
     <!-- Page start -->
     <div class="container">
-        <h2>SHOP BY CATEGORY</h2>
-        <div class="box">
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
+      <h2>SHOP BY CATEGORY</h2>
+      <div class="box">
+        <div class="box-contain">
+          <div class="contain">
+            <h4>Ethnic wear</h4>
+            <h5>50%-60% Off</h5>
+            <h4>Shop now</h4>
+          </div>
         </div>
+        <div class="box-contain">
+          <div class="contain">
+            <h4>Ethnic wear</h4>
+            <h5>50%-60% Off</h5>
+            <h4>Shop now</h4>
+          </div>
+        </div>
+        <div class="box-contain">
+          <div class="contain">
+            <h4>Ethnic wear</h4>
+            <h5>50%-60% Off</h5>
+            <h4>Shop now</h4>
+          </div>
+        </div>
+        <div class="box-contain">
+          <div class="contain">
+            <h4>Ethnic wear</h4>
+            <h5>50%-60% Off</h5>
+            <h4>Shop now</h4>
+          </div>
+        </div>
+        <div class="box-contain">
+          <div class="contain">
+            <h4>Ethnic wear</h4>
+            <h5>50%-60% Off</h5>
+            <h4>Shop now</h4>
+          </div>
+        </div>
+        <div class="box-contain">
+          <div class="contain">
+            <h4>Ethnic wear</h4>
+            <h5>50%-60% Off</h5>
+            <h4>Shop now</h4>
+          </div>
+        </div>
+      </div>
     </div>
-        <div class="box">
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
-            <div class="box-contain"><div class="contain"><h4>Ethnic wear</h4> <h5>50%-60% Off</h5> <h4>Shop now</h4></div></div>
+    <div class="box">
+      <div class="box-contain">
+        <div class="contain">
+          <h4>Ethnic wear</h4>
+          <h5>50%-60% Off</h5>
+          <h4>Shop now</h4>
+        </div>
+      </div>
+      <div class="box-contain">
+        <div class="contain">
+          <h4>Ethnic wear</h4>
+          <h5>50%-60% Off</h5>
+          <h4>Shop now</h4>
+        </div>
+      </div>
+      <div class="box-contain">
+        <div class="contain">
+          <h4>Ethnic wear</h4>
+          <h5>50%-60% Off</h5>
+          <h4>Shop now</h4>
+        </div>
+      </div>
+      <div class="box-contain">
+        <div class="contain">
+          <h4>Ethnic wear</h4>
+          <h5>50%-60% Off</h5>
+          <h4>Shop now</h4>
+        </div>
+      </div>
+      <div class="box-contain">
+        <div class="contain">
+          <h4>Ethnic wear</h4>
+          <h5>50%-60% Off</h5>
+          <h4>Shop now</h4>
+        </div>
+      </div>
+      <div class="box-contain">
+        <div class="contain">
+          <h4>Ethnic wear</h4>
+          <h5>50%-60% Off</h5>
+          <h4>Shop now</h4>
+        </div>
+      </div>
     </div>
     <!-- Page end -->
     <!-- footer start -->
     <div class="footer-main">
-        <div class="footer">
-            <h4 class="h4" >ONLINE SHOPPING 
-                <div class="footer-container"> Men <br>Women <br>Kids <br>Home & Living <br>Beauty <br> Gift Cards <br>myntra Insider </div> 
-                <div class="links">USEFUL LINKS 
-                    <div class="footer-container">Blog <br> Carrers <br>Site Map <br> Corporate Information <br>whitehat <br> Cleartrip
-                    </div>
-                </div>  
-            </h4>
-            <h4 class="h4" >CUSTOMER POLICIES <div class="footer-container">Contact Us <br> FAQ <br>T&C<br>Terms Of Use <br>Track Orders<br>Shipping<br>Cancellation<br>Returns<br>Privacy policy<br>Grievance Officer </div> </h4>
-            <h4 class="h4" >EXPERIENCE MYNTRA APP ON MOBILE <div class="footer-container " id="img"><img class="play_store" src="../myntra-navbar/Google_Play_Store_logo.webp" alt=""><img class="app_store" src="../myntra-navbar/app-store-logo.png" alt=""> </div> 
-               <div class="social"> KEEP IN TOUCH </div>
-                <div class="social-media-icon">
-                    <img src="../myntra-navbar/icons8-facebook-22.png" alt="">
-                    <img src="../myntra-navbar/icons8-twitter-22.png" alt="">
-                    <img src="../myntra-navbar/icons8-youtube-22.png" alt="">
-                    <img src="../myntra-navbar/icons8-instagram-old-22.png" alt="">
-                </div>
-            </h4> 
-            <div class="footer-third-container">
-                 <div class="original"><img src="../myntra-navbar/original_5619383.png" alt=""> 
-                     <div class="font"> 
-                        <b> 100% ORIGINAL </b> guarantee for <br>all products at myntra.com </div>
-                 </div>
-                 <div class="days"><img src="../myntra-navbar/14-days.png" alt="">
-                 <div class="font"> 
-                    <b>Return within 14days </b> <br> of receiving your order</div>
-                </div>
-                <!-- <img src="../myntra-navbar/original_5619383.png" alt="">
+      <div class="footer">
+        <h4 class="h4">
+          ONLINE SHOPPING
+          <div class="footer-container">
+            Men <br />Women <br />Kids <br />Home & Living <br />Beauty <br />
+            Gift Cards <br />myntra Insider
+          </div>
+          <div class="links">
+            USEFUL LINKS
+            <div class="footer-container">
+              Blog <br />
+              Carrers <br />Site Map <br />
+              Corporate Information <br />whitehat <br />
+              Cleartrip
+            </div>
+          </div>
+        </h4>
+        <h4 class="h4">
+          CUSTOMER POLICIES
+          <div class="footer-container">
+            Contact Us <br />
+            FAQ <br />T&C<br />Terms Of Use <br />Track Orders<br />Shipping<br />Cancellation<br />Returns<br />Privacy
+            policy<br />Grievance Officer
+          </div>
+        </h4>
+        <h4 class="h4">
+          EXPERIENCE MYNTRA APP ON MOBILE
+          <div class="footer-container" id="img">
+            <img
+              class="play_store"
+              src="../myntra-navbar/Google_Play_Store_logo.webp"
+              alt=""
+            /><img
+              class="app_store"
+              src="../myntra-navbar/app-store-logo.png"
+              alt=""
+            />
+          </div>
+          <div class="social">KEEP IN TOUCH</div>
+          <div class="social-media-icon">
+            <img src="../myntra-navbar/icons8-facebook-22.png" alt="" />
+            <img src="../myntra-navbar/icons8-twitter-22.png" alt="" />
+            <img src="../myntra-navbar/icons8-youtube-22.png" alt="" />
+            <img src="../myntra-navbar/icons8-instagram-old-22.png" alt="" />
+          </div>
+        </h4>
+        <div class="footer-third-container">
+          <div class="original">
+            <img src="../myntra-navbar/original_5619383.png" alt="" />
+            <div class="font">
+              <b> 100% ORIGINAL </b> guarantee for <br />all products at
+              myntra.com
+            </div>
+          </div>
+          <div class="days">
+            <img src="../myntra-navbar/14-days.png" alt="" />
+            <div class="font">
+              <b>Return within 14days </b> <br />
+              of receiving your order
+            </div>
+          </div>
+          <!-- <img src="../myntra-navbar/original_5619383.png" alt="">
                 <div class="font">  
                  100% ORIGINALS guarantee for  <br> all products at myntra.com </div> <br> <img src="../myntra-navbar/14-days.png" alt=""> Return within 14days of <br> receiving your order -->
-                </div> 
         </div>
-        <div class="sub-footer">
-            <h4 class="h4" >POPULAR SEARCH</h4>
-            <div class="footer-container">Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags | Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags |Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags |Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags |Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags |Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags | </div>
+      </div>
+      <div class="sub-footer">
+        <h4 class="h4">POPULAR SEARCH</h4>
+        <div class="footer-container">
+          Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones |
+          Babydolls | Blazers For Men | Handbags | Makeup | Dresses For Girls |
+          T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men |
+          Handbags |Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones
+          | Babydolls | Blazers For Men | Handbags |Makeup | Dresses For Girls |
+          T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men |
+          Handbags |Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones
+          | Babydolls | Blazers For Men | Handbags |Makeup | Dresses For Girls |
+          T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men |
+          Handbags |
         </div>
-        <div class="sub-sub-footer">
-            <div class="footer-container">In Case of any Concern, <a href="">Contact Us</a></div>
-            <div class="footer-container">©2023 WWW.myntra.com.All rights reserved.</div>
-            <div class="footer-container">A Flipkart compony</div> 
+      </div>
+      <div class="sub-sub-footer">
+        <div class="footer-container">
+          In Case of any Concern, <a href="">Contact Us</a>
         </div>
+        <div class="footer-container">
+          ©2023 WWW.myntra.com.All rights reserved.
+        </div>
+        <div class="footer-container">A Flipkart compony</div>
+      </div>
     </div>
-<!-- footer end -->
-</body>
+    <!-- footer end -->
+  </body>
 </html>
