@@ -1,0 +1,196 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+* {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica, Arial, sans-serif;
+}
+.navbar {
+  margin-top: -22px;
+  justify-content: center;
+  box-shadow: 0 2px 50px -6px rgba(206, 206, 206, 0.8);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  margin-top: -30px;
+  background-color: rgb(255, 255, 255);
+}
+img {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: -7px;
+  height: 36px;
+}
+div {
+  margin-top: 25px;
+}
+.nav {
+  color: rgb(2, 2, 53);
+  font-weight: bolder;
+  font-size: medium;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.Serch-bar {
+  border: none;
+  margin-top: -4px;
+  background-color: rgb(222, 223, 223);
+  height: 30px;
+  width: 300px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 1px; */
+  margin-left: -30px;
+  margin-right: 20px;
+}
+.icon > label {
+  font-size: 11px;
+  color: black;
+}
+.search {
+  background-color: rgb(237, 237, 237);
+}
+.studio {
+  margin-top: 18px;
+}
+sup {
+  margin-top: 100px;
+  color: red;
+}
+h2 {
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica, Arial, sans-serif;
+  color: rgb(47, 50, 104);
+  font-size: 30px;
+  margin-left: 10px;
+}
+.box {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.box-contain {
+  /* flex-direction: column; */
+  height: 300px;
+  width: 200px;
+  background-color: dimgray;
+  background-color: bisque;
+}
+.container {
+  padding-top: 60px;
+}
+.contain {
+  margin-top: 200px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: orangered;
+  height: 70px;
+  margin-left: 25px;
+  width: 150px;
+}
+.footer-main {
+  /* color: rgb(58, 57, 57); */
+  color: rgb(122, 124, 126);
+  box-shadow: 0 2px 15px -6px rgba(107, 107, 107, 0.8);
+  background-color: rgba(255, 255, 255, 0.918);
+  height: 600px;
+  /* display: flex; */
+}
+.footer {
+  display: flex;
+  padding: 20px 120px;
+  width: 100%;
+  height: 300px;
+  color: rgb(86, 110, 129);
+}
+.h4 {
+  color: rgb(58, 57, 57);
+  margin-right: 35px;
+  flex-direction: row;
+  font-size: 11px;
+  height: 10px;
+}
+.footer-container {
+  font-weight: normal;
+  color: rgb(122, 124, 126);
+}
+.sub-footer {
+  margin-top: 100px;
+  width: 1050px;
+  margin-left: 120px;
+}
+.sub-sub-footer {
+  margin-left: 120px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1020px;
+  height: 50px;
+  margin-top: 0px;
+}
+a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: blue;
+}
+.play_store {
+  height: 40px;
+}
+.app_store {
+  height: 40px;
+  width: 130px;
+}
+.social-media-icon > img {
+  margin: 0px;
+  color: rgb(105, 110, 121);
+  margin-top: -10px;
+  height: 30px;
+  padding: 2px 5px;
+}
+.footer-third-container {
+  /* display: flex; */
+  margin-left: 20px;
+  margin-top: -10px;
+}
+.original > img {
+  height: 40px;
+}
+.days > img {
+  height: 40px;
+}
+.days {
+  margin-top: 5px;
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+.original {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.font {
+  margin-top: 17px;
+}
+b {
+  color: black;
+}
+.footer-third-container > img {
+  flex-direction: row;
+  margin-right: 5px;
+  height: 40px;
+}
+#img {
+  margin-top: 9px;
+  margin-left: -40px;
+}
