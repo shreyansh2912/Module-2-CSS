@@ -6,6 +6,14 @@
 }
 header{
     padding: 5px;
+    /* background-color: aliceblue; */
+    position: fixed;
+    /* position: sticky; */
+    top: 0;
+    width: 100%;
+}
+header.affix{
+    background-color: gold;
 }
 nav{
     /* position: absolute; */
@@ -50,8 +58,8 @@ button{
 .container{
     background-image:url(images/c413f20400e04805-_1_.jpg);
     background-size: cover;
-    background-position: right 0px bottom 0px;
-    height: 700px;
+    background-position: right -20px bottom 0px;
+    height: 800px;
 }
 h1{
     font-size: 50px;
@@ -182,7 +190,7 @@ h3{
     padding-bottom: 30px;
     margin-left: 0px;
 }
-.footer-2:hover{
+.hover>a:hover{
     text-decoration: underline;
 }
 .footer-b{
