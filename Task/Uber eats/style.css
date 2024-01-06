@@ -6,9 +6,7 @@
 }
 header{
     padding: 5px;
-    /* background-color: aliceblue; */
     position: fixed;
-    /* position: sticky; */
     top: 0;
     width: 100%;
 }
@@ -16,11 +14,9 @@ header.affix{
     background-color: gold;
 }
 nav{
-    /* position: absolute; */
     height: 70px;
     width: 100%;
     align-items: center ;
-    /* padding: 30px; */
     display: flex;
     justify-content: space-around;
     align-items:center;
