@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 350px;
+    height: 400px;
+    margin: 10px auto;
+}
+.logo>img{
+    color: #2A2A2A;
+    height: 80px;
+    width: 180px;
+    margin: 20px 80px 25px 80px;
+}
+.form{
+    border: 1px solid  rgb(211, 207, 207);
+}
+.sign{
+    margin-top: 10px;
+    border: 1px solid  rgb(211, 207, 207);
+    padding: 25px 70px;
+}
+input{
+    background-color: #f9f8f8;
+    height: 36px;
+    width: 265px;
+    margin: 4px 40px;
+    padding-left:5px ;
+    border: 1px solid rgb(211, 207, 207);
+}
+button{
+    margin: 10px 40px; 
+    width: 265px;
+    height:30px;
+    border-radius: 10px;
+    background-color: #4CB5F9;
+    color: aliceblue;
+    border: none;
+    font-weight: bolder;
+}
+.or>span{
+    margin: 3px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:13px;
+}
+.or{
+    margin: 10px 40px;
+    width: 265px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.border{
+    border: 1px solid rgb(211, 207, 207);
+    height: 0px;
+    width: 100px;
+}
+.facebook{
+    margin-left: 90px;
+    align-items: center;
+}
+.form .facebook a{
+    font-size:13px;
+    color: #385185;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.forget{
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: smaller;
+     font-weight:normal;
+}
+.form .facebook a img{
+    background-color: aliceblue;
+    height: 15px;
+}
+.icons>.text_app{
+    margin: 15px 130px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #6d6666;
+}
+.download{
+    display: flex ;
+    justify-content: space-between;
+    width: 280px;
+    margin-left: 45px;
+}
+.download_link img{
+    height: 40px;
+    width: 130px;
+}

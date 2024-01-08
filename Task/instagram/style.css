@@ -114,11 +114,38 @@ pre{
     justify-content: space-around;
 }
 .icons>.text_app{
-    margin: 20px;
+    margin: 15px 130px;
     font-weight: normal;
     margin-bottom: 20px;
 }
 .download_link>img{
     height: 40px;
     width: 130px;
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+    width: 900px;
+    margin-left: 200px;
+    justify-content: space-around;
+}
+.footer>.link>a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(69, 68, 68) ;
+    font-size:small;
+}
+select{
+    border: none;
+}
+.line-2{
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+.line-2>span{
+        margin-left: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(69, 68, 68) ;
+        font-size:small;
 }
