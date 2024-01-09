@@ -6,13 +6,32 @@
 .main>.img>.layer>img:hover{
     opacity: 0;
 }
-.layer>img{
+.layer{
     position: absolute;
     margin-top: -600px;
-    height: 530px;
+    height: 530px;  
     width:250px;
     margin-left: 150px;
-    transition:opacity is ease-in-out;
+    /* transition:opacity is ease-in-out; */
+    animation: image 8s  linear infinite;
+
+}
+@keyframes image{
+    0%{
+        background-image: url(img/screenshot1.png);
+    }
+    33%{
+        background-image: url(img/screenshot2.png);
+        
+    }
+    66%{
+        background-image: url(img/screenshot3.png);
+        
+    }
+    100%{
+        background-image: url(img/screenshot4.png);
+
+    }
 }
 body{
     margin-top: -100px;
@@ -161,4 +180,8 @@ select{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: rgb(69, 68, 68) ;
         font-size:small;
+}
+h4{
+    font-size:medium;
+    font-weight: 300;
 }

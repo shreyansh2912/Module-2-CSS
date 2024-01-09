@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+header{
+    height:100px;
+}
+.nav{
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 200;
+    /* font-family: "Open Sans"; */
+    display: flex;
+    margin-left: 90px;
+    width: 1200px;
+    justify-content: space-around;
+    align-items:center;
+}
+.logo>img{
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 650;
+}
+.left{
+    margin-top: 80px;
+}
+.image>img{
+    /* background-color: black; */
+    height: 60  0px;
+}
+.box-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.text{
+    margin-top: 50px;
+}
+.button{ 
+    margin-top: 50px;
+    width: 135px;
+    height: 45px;
+    background-color: #f2cd5d;
+}
+.button button{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    border: 3px solid #000000;
+    background-color: #f2cd5d;
+}
+.box-2{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    justify-content: space-between;
+    width:1000px;
+}
+.Food-image>.img{
+    height: 250px;
+}
+.Food-image>h4{
+    text-align: center;
+}
+.box-3{
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 1000px;
+    display: flex;
+}
+.box-3>img{
+    width: 500px;
+}
+.text-2{
+    margin-top: 100px;
+}
