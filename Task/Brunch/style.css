@@ -245,8 +245,11 @@ textarea{
     width: 150px;
 }
 .footer{
-    background-color:#fe804a;
+    background-color:#FE804A;
     height: 300px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
 }
 .size>img{
     margin-top: 40px;
@@ -255,4 +258,18 @@ textarea{
 .shape-14{
     position: absolute;
     z-index: 0;
+}
+h5{
+    font-size:30px;
+    font-weight:650;
+}
+.line{
+    padding-top: 5px;
+}
+.line>ul{
+    margin-top: 10px;
+}
+.icon{
+    display: flex;
+    gap: 15px;
 }
