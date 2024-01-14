@@ -62,7 +62,6 @@ h1{
     position: absolute;
     top: 400px;
     left: -200px;
-    left: -150px;
 }
 #shape-13{
     height: 70px;
@@ -98,10 +97,9 @@ h1{
     display: flex;
     position: relative;
     z-index: 2;
-    margin-top: 100px;
-    margin-left: 150px;
-    justify-content: space-between;
-    width:1000px;
+    margin: 90px 0px 0px 0px;
+    justify-content: space-around;
+    width:100%;
     background-color:#fffdfd;
 }
 .Food-image>.img{
@@ -121,12 +119,10 @@ h1{
     width: 700px;
 }
 .text-2{
-    margin-top: 100px;
-    margin-left: 100px;
+    margin: 100px 0px 0px 100px;
 }
 .text-2 > p{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0px 50px 0px;
 }
 .right2{
     width: 1000px;
@@ -135,9 +131,7 @@ p{
     font-size: 20px;
 }
 .menu{
-    margin-top: 50px;
-    margin-left: 600px;
-    margin-bottom: 20px;
+    margin: 50px 0px 20px 600px;
 }
 .text-3{
     text-align: center;
@@ -163,8 +157,7 @@ h4{
 }
 .col-50>p{
     font-size: 15px;
-    margin-top: 15px;
-    margin-left: 30px;
+    margin: 15px 0px 0px 30px;
 }
 .ml{
     margin-left: 30px;
@@ -190,12 +183,10 @@ h4{
 .tag{
     height: 80px;
     width: 180px;
-    padding-top: 6px;
-    padding-left: 15px;
+    padding: 7px 0px 0px 15px;
     background-color: #fe804a;
-    margin-left: 80px;
     position: absolute;
-    margin-top: -50px;
+    margin: -50px 0px 0px 80px;
 }
 .tag-2{
     height: 50px ;
@@ -208,8 +199,7 @@ h4{
     border: 3px solid #000000;
 }
 .font-2{
-    margin-top: 70px;
-    margin-left: 50px;
+    margin: 70px 0px 0px 50px;
 }
 .visit{
     margin: 50px auto;
@@ -298,3 +288,6 @@ h5{
     display: flex;
     gap: 15px;
 }
+ @media(Max-width:576px){
+    
+ }

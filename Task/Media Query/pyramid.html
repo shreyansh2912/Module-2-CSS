@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pyramid</title>
+</head>
+<style>
+     body{
+        background-color: antiquewhite;
+     }
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+    .two{
+        border: 2px solid black;
+        background-color:teal;
+    }
+    .three{
+         background-color: rgb(143, 17, 145);
+        border: 2px solid black;
+
+    }
+    .four{
+        background-color: rgb(119, 0, 156);
+        border: 2px solid black;
+
+    }
+    .container{
+        height:200px;
+        width: 200px;
+        background-color: rgb(151, 246, 17);
+        border: 1px solid black;
+        margin: 10px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+@media (min-width: 576px) { 
+    
+    .container{
+        height:200px;
+        width: 200px;
+        background-color: rgb(151, 246, 17);
+        border: 1px solid black;
+    }
+}
+
+</style>
+<body>
+    <div class="main">
+        <div class="two flex ">
+            <div class="container"></div>
+            <div class="container"></div>
+        </div>
+        <div class="three flex">
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+        </div>
+        <div class="four flex">
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+        </div>
+    </div>
+</body>
+</html>
