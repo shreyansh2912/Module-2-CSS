@@ -289,5 +289,35 @@ h5{
     gap: 15px;
 }
  @media(Max-width:576px){
-    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+     .nav{
+        font-size: small;
+        width: 400px;
+        margin: 0px;
+     }
+     .box-1{
+        display: flex;
+        flex-direction: column;
+     }
+     .head-line{
+         margin-left:0px;
+     }
+     .right>.image>img{
+        width: 400px;
+        margin-left: -150px;
+     }
+     .box-2{
+        display:flex;
+        flex-direction: column;
+    }
+    .Food-image>.img{
+         margin-left: 100px;
+         margin-top: 100px;
+    }
+
  }
