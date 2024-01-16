@@ -42,28 +42,28 @@ h1{
     position: relative;
     z-index: 2;
 }
-#shape{
+.shape{
     height: 100px;
     position: absolute;
     left: -170px;
 }
-#shape-4-2{
+.shape-4-2{
     position: absolute;
     top: 500px;
     left: 1050px;
 }
-#shape-4{
+.shape-4{
     height: 250px;
     position: absolute;
     left: 450px;
 }
-#shape-9{
+.shape-9{
     transform:scaleX(-1) ;
     position: absolute;
     top: 400px;
     left: -200px;
 }
-#shape-13{
+.shape-13{
     height: 70px;
     position: absolute;
     top: 420px;
@@ -289,35 +289,103 @@ h5{
     gap: 15px;
 }
  @media(Max-width:576px){
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        font-family: 'Open Sans', sans-serif;
-    }
      .nav{
-        font-size: small;
+        font-size:13px;
         width: 400px;
         margin: 0px;
      }
+     .logo>img{
+        width: 50px;
+     }
+     img[class*="shape"]{
+            display: none;
+     }
+     .head-line>h1{
+        font-size: 40px;
+        text-align: center;
+        width: 330px;
+     }
+     .text{
+       margin-left: 35px; 
+       margin-top: 10px;
+       width: 250px;
+       text-align: center;
+     }
+     
      .box-1{
+        margin-top: 0px;
+        margin-left: 50px;
         display: flex;
         flex-direction: column;
-     }
-     .head-line{
-         margin-left:0px;
-     }
-     .right>.image>img{
-        width: 400px;
-        margin-left: -150px;
-     }
-     .box-2{
-        display:flex;
+        width: 250px;
+      } 
+      .button{
+        margin: 30px 90px;
+      }
+     .right>.image>img{ 
+         width: 300px; 
+         height: 200px;
+         margin-bottom: 0px;
+      }
+     .box-2{ 
+        margin-left: 25px auto;
+         display:flex; 
+         width: 400px;
         flex-direction: column;
+     }
+    .Food-image>h4{
+        margin-top: 0px;
+          width: 200px;
     }
-    .Food-image>.img{
-         margin-left: 100px;
-         margin-top: 100px;
+    .Food-image{
+         margin: 0px 70px; 
+         height: 350px;
     }
-
+    .Food-image>.img{ 
+        margin: 0px 40px;
+     }
+     .box-3{
+        margin-top: 150px;
+        display: flex;
+        flex-direction:column-reverse;
+     }
+     .right2{
+        margin-left: 0px;
+     }
+     .text-2{
+        margin-left: 0px;
+        width: 380px;
+     }
+     .text-2>.a{
+        margin-top: 0px;
+        margin-left: 150px;
+     }
+     .text-2>p {
+        text-align: center;
+     }
+     .text-2>h1{
+        font-size: 30px;
+        text-align: center;
+        width: 250px;
+        margin-left: 50px;
+     }
+     .box-3>img{
+        width: 250px;
+        margin-left:68px;
+        margin-top: 20px;
+     }
+     .box-4>h1{
+        margin-left: 0px;
+        text-align: center;
+        font-size:30px;
+     }
+     .text-3{
+        width: 360px;
+        font-size: 15px;
+     }
+     .footer{
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+     }
  }
