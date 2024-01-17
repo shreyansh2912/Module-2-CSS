@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin: 40px 40px 0px 40px;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    margin-top: -10px;
+    padding-top:10px ;
+    height: 700px;
+    background: url(img/Rectangle.png);
+}
+.bg>img{
+      position:static;
+      width:100%;
+      margin-top:-10px;
+}
+.navimg{
+    height: 40px;
+}
+.contact{
+    display: flex;
+    font-family:"Montserrat", sans-serif;
+    gap: 10px;
+    align-items: flex-end   ;
+}
+.number{    
+    width: 150px;
+    align-items:end;
+    text-align: right;
+}
+.exp{
+    font-size:10px;
+    font-weight: 900;
+
+}
+.numb{
+    font-weight: 700;
+}
+.pages{
+      width: 100%;
+}
+.pages>a{
+    padding: 10px 30px 0px 0px;
+    float:inline-end;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-family:"Montserrat", sans-serif;
+}
+.box-1{
+    padding: 50px;
+    display: flex;
+}
+h2{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    padding-left:100px ;
+}
+h1{
+    font-size:80px;
+    font-weight: 100;
+    font-family: "Fredericka the Great", serif;
+}
+.box-1{
+    width: 100%;
+}
+.col-40{
+    width: 45%;
+}
+.col-60{
+    width: 55%;
+}
+.img>img{
+    width: 900px;
+    height: 800px;
+    padding: 0px;
+    margin-top: -180px;
+    margin-left: -50px;
+    background:;
+    filter: drop-shadow(5.5px 9.526px 125px rgba(12,13,12,0.31));
+}
+.col-40>p{
+    font-size: 25px;
+    font-weight:700;
+    font-family:"Montserrat", sans-serif;
+    margin-left: 40px;
+}
+.text{
+    margin-top: 100px;
+    margin-left:120px;
+    display: flex;
+    width: 220px;
+    font-family: "Fredericka the Great", serif;
+}
+.num{
+    font-size: 37px;
+    font-weight: 300;
+}
+.btn{
+    margin-top:30px;
+    margin-left:150px;
+    width:140px;
+    height: 40px;
+    background: none;
+    font-weight:900;
+    font-size: 14px;
+    font-family:"Montserrat", sans-serif;
+}
+.s50{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.pera{
+    text-align: center;
+}
+.scale{
+    margin-top: 50px;
+    height: 150px;
+}
