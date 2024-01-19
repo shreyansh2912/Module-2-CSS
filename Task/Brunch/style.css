@@ -231,6 +231,7 @@ h4{
 .col-60{
     width: 700px;
     margin-right: 50px;
+    margin-left: 30px;
 }
 .box-7>.col-40>img{
     width: 600px;
@@ -288,7 +289,10 @@ h5{
     display: flex;
     gap: 15px;
 }
- @media(Max-width:576px){
+@media(Max-width:576px){
+    .web-site{
+        overflow: hidden;
+    }
      .nav{
         font-size:13px;
         width: 400px;
@@ -422,13 +426,26 @@ h5{
     .col-60{
         width:400px;
         text-align: center;
+        margin-left: 0px;
      }
+    .col-60>.button{
+        margin-left: 130px;
+    }
+    /* .msg{
+        margin-left: 40px;
+     } */
     input , textarea{
         height: 30px;
         width: 300px;
     }
     .hi{
       height: 100px;
+    }
+    .box-7>.col-40>img{
+        height:500px;
+        width: 350px;
+        margin-left: 25px;
+        margin-bottom: 20px;
     }
      .footer{
         display: flex;
