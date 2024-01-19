@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 *{
     margin: 0;
@@ -63,7 +64,6 @@ header{
     display: flex;
 }
 h2{
-    font-family:"Montserrat", sans-serif;
     font-weight: 500;
     font-size: 45px;
     padding-left:100px ;
@@ -98,6 +98,9 @@ h1{
     font-family:"Montserrat", sans-serif;
     margin-left: 40px;
 }
+.col-40>h2{
+    font-family: "Dancing Script", cursive;
+}
 .text{
     margin-top: 100px;
     margin-left:120px;
@@ -124,6 +127,7 @@ h1{
     margin-bottom: 5px;
 }
 .pera{
+    margin-top: 50px;
     text-align: center;
 }
 .scale{
@@ -172,6 +176,131 @@ h4{
     font-size: 16px;
     margin-left: 100px;
 }
-.box-3>h2{
+h2{
     font-family: "Fredericka the Great", serif;
+}
+.two-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.two-image>img{
+    width: 400px;
+    height: 300px;
+}
+.mid-image>img{
+   width: 700px;
+}
+.mid-image{
+    position: absolute;
+    top: 0;
+    left: 320px;
+    padding-top: 0px;
+}
+.three-image{
+    position: relative;
+}
+.dots{
+    margin-top: 50px;
+}
+.box-4{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;
+    padding: 70px;
+    color: aliceblue;
+    font-family:"Montserrat", sans-serif; 
+    text-align: center;
+}
+.right>img{
+    width: 550px;
+    height: 180px;
+}
+.left>img{
+    height: 400px;
+    width: 550px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+.left{
+    position: relative;
+}
+.text-3{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    text-align: start;
+    padding: 30px;
+}
+.text-3>h4{
+    font-size: 20px;
+    width: 150px;
+}
+.text-3>h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+.first{
+    position: relative;
+}
+.second{
+    position: relative;
+}
+.text-3>h5{
+    font-size: 25px;
+}
+.text-4{
+    text-align: center;
+    font-family:"Montserrat", sans-serif; 
+}
+.col-70{
+    display: flex;
+    margin: 50px 400px;
+}
+input{
+    height:50px;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+}
+.col-35>button{
+    height:50px;
+    width: 300px;
+    margin: 10px;
+    font-weight: 700;
+    background-color: #FFE100; 
+    border:none;   
+}
+footer{
+    background: url(img/BG\ Image.png);
+    background-size: 100%;
+    height: 540px;
+    color: aliceblue;
+}
+.col-50{
+    width: 400px;
+}
+.footer-sec{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo2{
+    margin: 100px;
+    padding-top: 50px;
+}
+.icon{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+.footer-line{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 100px 20px 100px;
 }
