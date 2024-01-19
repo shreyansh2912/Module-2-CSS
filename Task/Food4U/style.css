@@ -81,6 +81,8 @@ h1{
 }
 .col-60{
     width: 55%;
+    overflow: hidden;
+    filter: drop-shadow(5.5px 9.526px 125px rgba(12,13,12,0.31));
 }
 .img>img{
     width: 900px;
@@ -88,7 +90,7 @@ h1{
     padding: 0px;
     margin-top: -180px;
     margin-left: -50px;
-    filter: drop-shadow(5.5px 9.526px 125px rgba(12,13,12,0.31));
+    overflow: hidden;
 }
 .col-40>p{
     font-size: 25px;
@@ -125,6 +127,51 @@ h1{
     text-align: center;
 }
 .scale{
+    position: relative;
+    margin-top: 70px;
+}
+.scale>img{
+    overflow: hidden;
     margin-top: 50px;
     height: 150px;
+    width: 100%;
+    margin-top: 100px;
+}
+.box-2-2{
+    position:absolute;
+    top: 0;
+    left:30px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-2{
+    text-align: center;
+}
+h4{
+    font-family:"Montserrat", sans-serif; 
+}
+.mb{
+    margin-bottom: 5px;
+}
+.col-33>button{
+    background-color: #FFE100;
+    font-size: 12px;
+    width: 150px;
+    font-weight:800;
+    height: 40px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.box-3{
+    margin-top: 500px;
+    text-align: center;
+}
+.box-3>h5{
+    font-family:"Montserrat", sans-serif; 
+    font-size: 16px;
+    margin-left: 100px;
+}
+.box-3>h2{
+    font-family: "Fredericka the Great", serif;
 }

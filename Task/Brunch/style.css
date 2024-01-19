@@ -299,7 +299,7 @@ h5{
      }
      img[class*="shape"]{
             display: none;
-     }
+     }  
      .head-line>h1{
         font-size: 40px;
         text-align: center;
@@ -383,9 +383,56 @@ h5{
         width: 360px;
         font-size: 15px;
      }
+     .box-4-2{
+        flex-direction:column;
+        gap: 20px;
+     }
+     .container{
+        width: 300px;
+        margin: 0px auto;
+        flex-direction:column;
+     }
+     .col-50{
+        padding-left: 50px;
+        text-align: center;
+     }
+     .col-50>.button{
+        margin-left:35px;
+     }
+     .col-5>img{
+        width: 100%;
+     }
+     .container-main{
+        flex-direction: column;
+        padding-left: 30px;
+     }
+     .box-6{
+        flex-direction: column-reverse;
+     }
+     .box-7{
+        flex-direction: column-reverse;
+     }
+     .box-50{
+        margin-left: 40px;
+        text-align:center;
+     }
+     .box-50>img{
+         width:350px;
+    }
+    .col-60{
+        width:400px;
+        text-align: center;
+     }
+    input , textarea{
+        height: 30px;
+        width: 300px;
+    }
+    .hi{
+      height: 100px;
+    }
      .footer{
         display: flex;
         flex-direction: column;
         height: 1400px;
      }
- }
+ }  
