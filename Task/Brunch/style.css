@@ -289,6 +289,8 @@ h5{
     display: flex;
     gap: 15px;
 }
+
+
 @media(Max-width:576px){
     .web-site{
         overflow: hidden;
