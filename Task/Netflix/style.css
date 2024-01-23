@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: url(img/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg);
+    /* background-color:; */
+    /* filter:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
+    filter:blur(25%);
+    height: 700px;
+    background-position: left center;
+    background-size:110%;
+    /* background: rgb(0 0 0 / 40%); */
+}
+nav{
+    height: 40px;
+    display: flex;
+}
+.logo>img{
+    width: 220px;
+}
+.sign_in{
+    background-color: #E50914;
+    color: white;
+}
+select{
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight:700;
+    font-size:medium;
+}
