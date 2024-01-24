@@ -1,22 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.main{
+    background-color: rgb(52, 51, 51);
 }
 header{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
-    background-image: url(img/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg);
-    /* background-color:; */
-    /* filter:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
+    background: url(img/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg);
     filter:blur(25%);
     height: 700px;
     background-position: left center;
     background-size:110%;
-    /* background: rgb(0 0 0 / 40%); */
+    background-repeat: no-repeat;
 }
 nav{
-    height: 40px;
+    height: 90px;
     display: flex;
+    justify-content: space-between;
+}
+.right{
+    margin-top: 15px;
+    margin-right:150px ;
+}
+.logo{
+    margin-left: 100px;
 }
 .logo>img{
     width: 220px;
@@ -24,6 +35,13 @@ nav{
 .sign_in{
     background-color: #E50914;
     color: white;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
 }
 select{
     background-color: transparent;
@@ -32,4 +50,263 @@ select{
     height: 30px;
     font-weight:700;
     font-size:medium;
+    margin-top:30px;
+}
+.header{
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.922) 0, rgba(23, 23, 23, 0.607) 60%, rgba(0, 0, 0, 0.8) 100%);
+    height: 100%;
+}
+h1{
+    font-weight: 900;
+    font-size:50px;
+}
+p{
+    font-size:23px;
+    margin-top: 20px;
+}
+.size{
+    font-size: 18px;
+}
+.content{
+    /* font-family: "Open Sans", sans-serif; */
+    font-weight: 500;
+    text-align: center;
+    margin-top: 70px;
+    padding: 140px;
+}
+.email{
+    margin-top: 20px;
+}
+.email>input{
+    background-color:rgba(0, 0, 0, 0.409);
+    border:0.5px solid white;
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    font-weight:600;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 10px 5px;
+
+}
+.email>button{
+    background-color: #E50914;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-weight:400;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
+.box-2{
+    margin-top: 7px;
+    background-color: black;
+    height:500px;
+    display: flex;
+    padding: 70px 180px;
+}
+.box-2-text{
+    margin: 0px auto;
+    height: 190px;
+    width: 510px;
+}
+.left-1{
+    padding-top: 70px ;
+}
+h2{
+    font-size: 50px;
+    font-weight: 800;
+    /* font-family: "Open Sans", sans-serif; */
+}
+.right-1{
+    position: relative;
+}
+.right-1>img{
+    position: absolute;
+    z-index: 5;
+    width: 500px;
+    height: 380px;
+}
+.video{
+    background-size: cover;
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    top: 78px;
+    left: 65px;
+    z-index: 0;
+}
+video {
+  pointer-events: none;
+  width:365px;
+}
+.box-3{
+    margin-top: 7px;
+    background-color: black;
+    height:550px;
+    display: flex;
+    padding-left: 150px;
+}
+.left-2>img{
+    height:400px;
+    margin-top: 70px;
+}
+.left-2{
+    position: relative;
+}
+.stranger-thing-tag{
+    background-color: rgba(0, 0, 0, 0.921);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 280px;
+    height: 100px;
+    padding-left: 10px;
+    position: absolute;
+    top:350px;
+    left: 120px;
+}
+.stranger-thing-tag>img{
+    height: 80px;
+}
+.blue{
+    color: blue;
+}
+.stranger-thing-tag >.text{
+    margin-top: 20px;
+}
+.stranger-thing-tag >.text>p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.size2{
+    margin-top: 10px;
+    width: 50px;
+}
+.box-3-text{
+    margin-top: 120px;
+    width: 450px;
+}
+.box-4{
+    margin-top: 7px;
+    height: 400px;
+}
+.col-50{
+    margin-top: 50px;
+    width: 500px;
+}
+.col-50>img{
+    width: 500px;
+    position: absolute;
+    z-index: 5;
+}
+.padding{
+    padding-top: 150px;
+}
+.rel{
+    position: relative;
+}
+.video-2{
+    position: absolute;
+    top: 50px;
+    left: 92px;
+}
+.video-2>video{
+    width:320px;
+    pointer-events: none;
+    z-index: 0px;
+}
+.width2{
+    width: 500px;
+    margin-top:60px;
+}
+.FAQ{
+    margin-top: 7px;
+    background-color: black;
+    padding: 40px 150px;
+    /* height: 1000px; */
+    text-align: center;
+}
+.question{
+    margin: 60px auto;
+    width: 100%;
+}
+.question li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.question li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 27px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor:pointer;
+    position: relative;
+}
+label{
+    height:80px;
+}
+label::after{
+    content: '+';
+    font-size: 55px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0s;
+}
+input[type="radio"]{
+    display: none;
+}
+.question .content2{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s, padding 0.5s;
+}
+.question input[type="radio"]:checked + label + .content2{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.question input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.mt-10{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.footer{
+    margin-top: 7px;
+    background-color: black;
+    height:400px;
+    padding :70px 150px;
+}
+.number{
+    text-decoration: underline;
+}
+.links{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: rgb(214, 208, 208);
+}
+.ul{
+    margin-top: 10px;
+}
+.anchor>a{
+    text-decoration: underline;
+    color: #bcbaba;
+    cursor: pointer;
+}
+.comapany{
+    margin-top:20px;
 }
