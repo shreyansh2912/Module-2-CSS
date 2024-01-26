@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing:border-box;
+    }
+    header{
+        background-color:black;
+        color: aliceblue;
+        height:60px;
+    }
+    nav>a{
+        color: aliceblue;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        padding: 25px ;
+    }
+    .i{
+        float: inline-end;
+        padding: 20px;
+        display: none;
+    }
+    @media (max-width:576px) {
+        nav>a{
+            display: none;
+        }
+        .i{
+            display: block;
+        }
+        .i:after{
+            content:"+";
+        }
+        input:checked + .i:after{
+            /* background-color: red; */
+            /* display: none; */
+            content: "+";
+            rotate: 357deg;
+        }
+        input:checked + nav>a {
+            display: block;
+            width: 200px;
+            padding: 10px 0px;
+            font-size: 30px;
+            position: absolute;
+            border: 3px solid blueviolet;
+            background-color: teal;
+            color: khaki;
+            top: 110px;
+            right: 0;
+            animation-name: slide;
+            animation-duration: 2s;
+        }
+        @keyframes slide {
+        from{
+            right: -200px;
+        }
+        to{
+            right: 0px;
+        }  
+    }
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contact us</a>
+            <a href="">About Us</a>
+            <a href="">Login</a>
+            <label for="1">
+                <i class="fa-solid fa-bars i"></i>
+            </label>
+            <input id="1"  type="checkbox">
+        </nav>
+    </header>
+</body>     
+</html>
