@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.section{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide{
+    width: 500%;
+    height: 1000px;
+    display: flex;
+}
+.slide input{
+    display: none;
+}
+.st img{
+    width: 100%;
+    transition: 5s;
+    height: 500px;
+}
+.nav-m{
+    position: absolute;
+    width: 800px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+}
+.m-btn{
+    border: 1px solid #23e3c2;
+    padding: 5px ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 5s;
+}
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background-color: #23e3c2;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+.nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.nav-auto div{
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 5s;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1{
+    background-color:#23e3c2;
+}
+#radio1:checked ~ .nav-auto .a-b2{
+    background-color:#23e3c2;
+}
+#radio1:checked ~ .nav-auto .a-b3{
+    background-color:#23e3c2;
+}
+#radio1:checked ~ .nav-auto .a-b4{
+    background-color:#23e3c2;
+}
