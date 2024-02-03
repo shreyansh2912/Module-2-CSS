@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 50px 120px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+}
+.nav-pages{
+    display: flex;
+    gap: 40px;
+}
+.nav-pages > a{
+    text-decoration: none;
+    color: gray;
+}
+.dark{
+    font-weight: 600;
+}
+.contact_us{
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    border: 3px solid black;
+    height: 35px;
+    width: 145px;
+    padding: 5px 27px;
+    font-weight:900 ;
+    border-radius: 5px;
+}
+.box-1{
+    font-family: "Cardo";
+    padding: 30px 100px;
+    display: flex;
+    gap: 40px;
+}
+.col-40{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.col-60{
+    width: 60%;
+}
+.col-60>img{
+    width: 600px;
+    filter: grayscale(10%)
+}
+h1{
+    font-size: 80px;
+    line-height: 81px;
+}
+p{
+    font-size: 15px;
+}
+button{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.black{
+    background-color: black;
+    color: aliceblue;
+}
+.box-2{
+    background-color: #1D1E1E;
+    color:aliceblue;
+    padding: 10PX auto;
+}
+h2{
+    font-size: 40px;
+}
+.box-2-content{
+    width: 300px;
+    text-align: center;
+}

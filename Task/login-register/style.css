@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(60deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.box{
+    display: flex;
+    margin: 120px 200px;
+}
+.input{
+    padding: 50PX 50PX;
+    color: aliceblue;
+
+}
+.col-50 {
+    background-color: black;
+    width: 500px;
+}
+.col-50 > img{
+    width: 500px;
+    height: 500px;
+}
+input[type ="text"],input[type ="password"]{
+    height:35px;
+    width:350px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight:600;
+    border: 3px solid gold;
+    border-radius:10px;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+}
+.line{
+    border-left: 4px solid gold;
+}
+h2{
+    margin-left: 120px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    margin-top: 20PX;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-weight:400;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    cursor: pointer;
+    margin: 20px 120px;
+    background-color: gold;
+    color:black;
+    width: 100px;
+    font-weight: 700;
+    height:30px;
+    border-radius: 10px;
+}
+input[type="checkbox"]:checked + .col-50 > img{
+    opacity: 0;
+} 
+.login{
+    display: none;
+}
+.register{
+    display: none;
+}
+p{
+    margin-left: 80px;
+}
+a{
+    color: gold;
+}
+.hidden{
+    display: none;
+}
