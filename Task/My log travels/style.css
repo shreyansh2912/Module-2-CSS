@@ -70,14 +70,61 @@ button{
     color: aliceblue;
 }
 .box-2{
+    margin-top: 170px;
     background-color: #1D1E1E;
     color:aliceblue;
-    padding: 10PX auto;
+    padding: 10PX 500px;
 }
 h2{
-    font-size: 40px;
+    font-size: 50px;
 }
 .box-2-content{
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 400px;
     text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+.travels{
+    background-color: transparent;
+    color: aliceblue;
+    border: 3px aliceblue solid;
+}
+.box-3{
+    margin-top: 150px;
+}
+.col-33{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.col-33>img:first-child{
+    width: 325px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    font-size: 25px;
+}
+.box-4{
+    padding: 400px 100px;
+}
+.box-4-content{
+    width: 600px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box-4-content>img:first-child{
+    width: 60px;
+}
+.box-4-p{
+    font-size: 20px;
+    font-weight: 900;
 }
