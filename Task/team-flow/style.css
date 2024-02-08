@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;;
+}
+nav{
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+.pages-link{
+    margin-left: 100px;
+    display: flex;
+    gap: 30px;
+}
+.buttons>button{
+    color: #794CFF;
+    background-color: #ECE5FF;
+    border:none;
+    height: 40px;
+    width: 130px;
+    margin: 0px 20px;
+}
+.box-1{
+    text-align: center;
+}
+.save90{
+    background: #81C43B;
+    border: none;
+    width: 108px;
+    height: 32px;
+    border-radius: 20px;
+}
+.account59{
+    background: #F2F9EB;
+    border: none;
+    width: 150px;
+    height: 32px;
+    border-radius: 20px;
+}
+.content{
+    padding:20px 270px ;
+}
+h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #35414B;
+    width: 800px;
+    /* margin: 20px 270px; */
+}
+.width{
+    width: 520px;
+    margin: 30px 150px;
+}
+input{
+    width: 319px;
+height: 52px;
+border: 1px solid #E1E5EA;
+background-color: linear-gradient(0deg, #E1E5EA, #E1E5EA);
+padding-left: 20px;
+}
+.input>button{
+    width: 164px;
+height: 52px;
+border: 1px solid #794CFF;
+background: #794CFF;
+color: aliceblue;
+}
+.img2{
+    display: flex;
+    margin-top: 30px;
+    gap: 100px;
+}
+.box-2{
+    background-color: #FBFAFE;
+    margin-top: 50px;
+    padding: 50px 120px;
+}
