@@ -325,8 +325,62 @@ hr{
         height: 50px;
         font-size: 25px;
     }
+    .box-5{
+        margin: 20px;
+    }
+    .box-5-content{
+        padding: 10px 80px;
+    }
+    .customers-profile{
+        text-align: center;
+    }
+    .customer img{
+        width:60px;
+    }
+    .customer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .box-5-2-content{
+        width: 200px;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 0px;
+        height: 340px;
+        border-radius: 0px;
+    }
+    .col-60{
+        padding: 0px;
+        width: 450px;
+        text-align: center;
+    }
+    .col-40{
+        flex-direction: column;
+        padding: 40px 140px;
+    }
+    .list{
+        flex-direction: column;
+        padding: 50px 0px;
+        margin: 10px 70px;
+        position: relative;
+    }
+    .list a:after{
+        align-items: center;
+        content: '›';
+        /* margin-top: 100px; */
+        font-size: 40px;
+        rotate: 90deg;
+        right: 10px;
+        position: absolute;
+        align-items: center;
+    }
+    .col{
+    }
+    .end{
+        padding: 40px 70px;
+    }
  }
-
 
 
 
