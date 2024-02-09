@@ -22,6 +22,12 @@ a{
     font-weight: 400;
     text-align: left;
 }
+input[type="checkbox"]{
+    display: none;  
+}
+.i{
+    display: none;
+}
 .pages-link{
     margin-left: 100px;
     display: flex;
@@ -64,7 +70,6 @@ h1{
     text-align: center;
     color: #35414B;
     width: 800px;
-    /* margin: 20px 270px; */
 }
 .width{
     width: 520px;
@@ -190,10 +195,10 @@ h3{
 }
 footer{
     background-color: #1D2830;
-    padding: 40px;
 }
 .list{
     margin: 20px 100px;
+    padding: 60px 40px;
     display:flex;
     justify-content: space-between;
 }
@@ -204,5 +209,124 @@ footer{
 }
 .column img{
     display: flex;
-    gap: 100px;
 }
+hr{
+    border: 2px solid #31414e ;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.end{
+    padding: 40px 120px;
+    display: flex;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 576px) { 
+
+    .page{
+        width: 576px;
+        overflow: hidden;
+    }
+    nav{
+        padding: 40px 40px;
+    }
+    .pages-link,.save90,.hide{
+        display: none;
+    }
+    .extra{
+        font-size: 30px;
+    }
+    .i{
+        display: block;
+    }
+    .box-1{
+        margin-top: 40px;
+    }
+    input[type="checkbox"]:checked + .pages-link{
+        display: block;
+    }
+    .content{
+        margin: 10px 100px;
+        padding: 0px;
+    }
+    h1{
+        line-height: 40px;
+        width: 360px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .width{
+        margin: 30px 30px;
+        width: 320px;
+    }
+    .input>button{
+        margin-top: 10px;
+        width: 320px;
+        height: 52px;
+        font-size: 25px;
+    }
+    .img>img{
+        width: 540px;
+        height: 550px;  
+    }
+    .img2{
+        width: 100px;
+    }
+    .wi{
+        margin: 10px 50px;
+    }
+    .img2{
+        gap: 52px;
+    }
+    .box-2{
+        padding:50px 20px ;
+    }
+    .box-2 img{
+        width: 540px;
+        height: 600px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .row{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+    }
+    .container{
+        width: 350px;
+        margin-left: -20px;
+    }
+    .container>h3{
+        font-size: 25px;
+    }
+    .box-4{
+        flex-direction:column-reverse;
+        margin: 10px 10px;
+        padding: 50px 50px;
+    }
+    .box-4 img{
+        width: 480px;
+        height: 350px;
+    }
+    .box-4-content .center{
+        text-align: center;
+    }
+    .box-4-content{
+        width: 420px;
+        padding: 40px 50px ;
+    }
+    .buttons>.blue{
+        width: 350px;
+        height: 50px;
+        font-size: 25px;
+    }
+ }
+
+
+
+
