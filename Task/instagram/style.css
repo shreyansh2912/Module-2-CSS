@@ -14,7 +14,34 @@
     margin-left: 150px;
     /* transition:opacity is ease-in-out; */
     animation: image 8s  linear infinite;
-
+}
+span>p{
+    font-weight: 200;
+}
+label>.span1{
+    color:#6d6666;
+    position: absolute;
+    top: 320px;
+    left: 750px;
+    font-weight: 100;
+}
+label>.span2{
+    color:#6d6666;
+    position: absolute; 
+    top: 365px;
+    left: 750px;
+}
+label>.span3{
+    color:#6d6666;
+    position: absolute; 
+    top: 410px;
+    left: 750px;
+}
+label>.span4{
+    color:#6d6666;
+    position: absolute; 
+    top: 453px;
+    left: 750px;
 }
 @keyframes image{
     0%{

@@ -30,6 +30,7 @@ input{
     height: 36px;
     width: 265px;
     margin: 4px 40px;
+    position: relative;
     padding-left:5px ;
     border: 1px solid rgb(211, 207, 207);
 }
@@ -133,4 +134,16 @@ select{
     color: #4CB5F9;
     font-weight: bold;
     text-decoration: none;
+}
+label>.span1{
+    color:#6d6666;
+    position: absolute;
+    top: 152px;
+    left: 545px;
+}
+label>.span2{
+    color:#6d6666;
+    position: absolute; 
+    top: 195px;
+    left: 545px;
 }

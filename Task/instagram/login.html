@@ -6,6 +6,7 @@
     <title>instagram</title>
     <link rel="icon" href="img/image-removebg-preview.png">
     <link rel="stylesheet" href="style_logo.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="main">
@@ -14,8 +15,10 @@
                 <img src="img/image-removebg-preview (1).png" alt="">
             </div>
             <div class="input">
-                <input type="text" placeholder="Phone number,username, or email" ><br>
-                <input type="password" placeholder="Password" >
+                <input type="text" id="text"><br>
+                <label for="text"><span class="span1 span" id="span1" onclick="input(this)">Phone number,username, or email</span></label>
+                <input type="password" id="passw">
+                <label for="passw"><span class="span2 span" id="span2" onclick="input(this)">Password</span></label>
                 <button>Log in</button>
             </div>
             <div class="or">
