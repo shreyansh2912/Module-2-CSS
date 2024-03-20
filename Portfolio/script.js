@@ -1,8 +1,13 @@
+
 $(document).ready(function () {
-    console.log("j");
-    $("button").t(function () {
-    console.log("a");
-        $("body").css({"background-color":"black","color":"aliceblue"})
+    $("button").click(function () {
+        $("body").toggleClass("dark-mode");
+        let button = $("button");
+        button.toggleClass("dark-mode")
+        if(button.text() == "☀️Light Mode" ){
+            button.text("🌥️Dark Mode");
+        }else{
+            button.text("☀️Light Mode");
+        }
     })
-    $("h1").
 })
