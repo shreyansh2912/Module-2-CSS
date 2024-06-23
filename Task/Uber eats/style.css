@@ -10,9 +10,6 @@ header{
     top: 0;
     width: 100%;
 }
-header.affix{
-    background-color: gold;
-}
 nav{
     height: 70px;
     width: 100%;

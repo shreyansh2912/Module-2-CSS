@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family:Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            padding: 150px;
+        }
+        :root{
+            --btn-backgound-color : #0066CC;
+            --btn-color : #ffff;
+        }
+        button{
+            background-color: var(--btn-backgound-color);
+            color: var(--btn-color);
+            border-radius: 20px;
+            width: 100px;
+            height: 30px;
+            border:none;
+            font-weight: 700;
+        }
+        .card{
+            width: 550px;
+            height: 280px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 0.5fr;
+            background-color: black;
+            padding:30px 20px;
+            border: 2px solid #00CC99;
+        }
+        .card * , .card{
+            border-radius: 25px;
+        }
+        .prof-panel .img , .prof-panel .img2{
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            background-size: 50px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .img{
+            background: url(../images/profile/woman-posing-black-dress-medium-shot.jpg);
+        }
+        .img2{
+            background: url(../images/profile/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing.jpg);
+        }
+        .prof-panel {
+            display: flex;
+            font-size: 18px;
+            align-items: center;
+            gap: 10px;
+        }
+        .h1{
+            color: #646CFF;
+            font-weight:500;
+            font-size: 25px;
+        }
+        .second-col ,.span ,.icons{
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+            color:rgb(92, 92, 92);
+        }
+        .span,.icons{
+            flex-direction: row;
+        }
+        .card:hover{
+            background-color: #ffff;
+            border: none;
+            margin-top:-5px;
+        }
+        .cards{
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+
+    <div class="card">
+        <div class="first-col">
+            <img src="../images/podcast/11683425_4790593.jpg" alt="" width="120px"> <br>
+            <button>Subscibe</button>
+        </div>
+        <div class="second-col">
+            <div class="span">
+                <span> 50 minutes </span>
+                <span> Episodes </span>
+            </div>
+            <div class="h1">Modern Vintage</div>
+            <div class="prof-panel">
+                <div class="img">
+                </div>
+                <div class="name">
+                    Elsa <br>
+                    Influencer
+                </div>
+            </div>
+            <div class="disc">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="icons">
+                <span>120K</span>
+                <span>42.5K</span>
+                <span>11K</span>
+                <span>50K</span>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="first-col">
+            <img src="../images/podcast/27376480_7326766.jpg" alt="" width="120px"> <br>
+            <button>Subscibe</button>
+        </div>
+        <div class="second-col">
+            <div class="span">
+                <span> 50 minutes </span>
+                <span> Episodes </span>
+            </div>
+            <div class="h1">Modern Vintage</div>
+            <div class="prof-panel">
+                <div class="img2">
+                </div>
+                <div class="name">
+                    Elsa <br>
+                    Influencer
+                </div>
+            </div>
+            <div class="disc">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="icons">
+                <span>120K</span>
+                <span>42.5K</span>
+                <span>11K</span>
+                <span>50K</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

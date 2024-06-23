@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-    <header data-spy="affix" data-offset-top="50" >
+    <header id="head">
         <nav>
             <div class="col20 A">
                 <i class="fa-solid fa-bars i "></i>
@@ -199,5 +199,15 @@
             <pre>
                 This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.      © 2024 Uber Technologies Inc.</pre>
         </div>
+
+        <script>
+            let head = document.getElementById("head")
+            window.addEventListener("scroll",()=>{
+                head.style.backgroundColor = "#ffff";
+                if(window.scrollY == 0){
+                    head.style.backgroundColor = "";
+                }
+            })
+    </script>
 </body>
 </html>
